@@ -7,3 +7,5 @@ const object ={eesnimi,sunnikuu,sunniaasta,sunniaasta,hobid};
 
 console.log(object);
 console.log(sunnipaev+"."+sunnikuu+"."+sunniaasta)
+
+///:D//
