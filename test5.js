@@ -12,6 +12,3 @@ const b = colors.join(". ");
  console.log(c)
  //outout + //
 
-
-
- cons
