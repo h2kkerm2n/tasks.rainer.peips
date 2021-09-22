@@ -1,18 +1,29 @@
-function capitalizeFirstletter(toString) {
-    return string.chartAt(0).touppercase() + string.slice(1);
+function check(string) {
+    if (!string) {
+        return true
+    } else {
+        return false
+    }
 }
 
-const a1 = ' " '
-const b2 = 'Hello'
-const c3 = 'My name is John'  
+function up(string) {
+    if (!string) {
+        return string
+    } else {
+        return string = string.charAt(0).toUpperCase() + string.slice(1);
+    }
+}
 
-console.log(a1)
-console.log(b2)
-console.log(c3)
+const a = ''
+const b = 'tere'
+const c = 'minu nimi on John'
 
-console.log(a1 , b2  === "")
-console.log(c3 , "" ==  "")
 
-console.log(capitalizeFirstletter(b2)); //upper
-console.log(capitalizeFirstletter(c3)); //upper
+console.log(check(a))
+console.log(check(b))
+console.log(check(c))
+
+console.log(up(a))
+console.log(up(b))
+console.log(up(c))
 
