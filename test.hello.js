@@ -6,3 +6,5 @@ function repeatstr(input, times) {
     repeatstr("Hello!", [2]);
     repeatstr("Hello!", [3]);
     repeatstr("Hello!", [12])
+
+kahjuks edasi minu pea ei võtnud ja maha ka ei taha copyda :)
