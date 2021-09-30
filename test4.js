@@ -1,18 +1,17 @@
-const colors = ['Red', 'Green', 'White', 'Black '];
-let string = ''
-for (let i = 0; i < colors.lenght; i++) {
-    string += colors[i];
-    console.log(string)
+const mycolors1 = ['Red' + ',' + 'Green' + ',' + 'White' + ',' + 'Black. ']
+
+for (let i = 0; i < mycolors1.length; i++) {
+    console.log(mycolors1[i])
 }
 
-const colors = ['Red' + ',' + 'Green' + ',' + 'White' + ',' + 'Black. ']
+const mycolors2 = ['Red' + ',' + 'Green' + ',' + 'White' + ',' + 'Black, ']
 
-for (let i = 0; i < mycolors2.lenght; i++) {
-    console.log(mycolors2[2])
+for (let i = 0; i < mycolors2.length; i++) {
+    console.log(mycolors2[i])
 }
 
-const mycolors3 = ['Red' + ',' + 'Green' + ',' + 'White' + ',' + 'Black. ']
+const mycolors3 = ['Red' + '+' + 'Green' + '+' + 'White' + '+' + 'Black+ ']
 
-for (let i = 0; i < mycolors3.lenght; i++) {
-    console.log(mycolors3[3])
+for (let i = 0; i < mycolors3.length; i++) {
+    console.log(mycolors3[i])
 }
