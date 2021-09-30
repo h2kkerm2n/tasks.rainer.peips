@@ -129,3 +129,5 @@ let actorString = 'Actors that played in those movies: '
 actorString += uniqueActors.join(', ') + '.'
 
 console.log(actorString)
+
+///movie info for actors movie rating and etc...
