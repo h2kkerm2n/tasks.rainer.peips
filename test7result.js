@@ -2,7 +2,7 @@ const products = require('./products.json')
 
 // Ex 1
 
-function getOneTypeProducts (type) {
+function getOneTypeProducts(type) {
   return products.filter((product) => {
     return product.type === type
   })
@@ -28,7 +28,7 @@ const apples = applesPears.filter((p) => {
 
 // Ex 2
 
-function getDiscountPrice (array) {
+function getDiscountPrice(array) {
   return array.map((product) => {
     const result = product.price - (product.price * product.discount / 100)
     product.discountPrice = +result.toFixed(2)
@@ -62,16 +62,16 @@ const moreThan = discountProducts.filter((product) => {
 
 // Ex 3
 
-function getCheapestProduct (array, type) {
-  return array.reduce(function(prev, curr) {
+function getCheapestProduct(array, type) {
+  return array.reduce(function (prev, curr) {
     return prev[type] < curr.price ? prev : curr;
     // prev.price
     // prev.discountPrice
   });
 }
 
-function getMostExpenciveProduct (array, type) {
-  return array.reduce(function(prev, curr) {
+function getMostExpenciveProduct(array, type) {
+  return array.reduce(function (prev, curr) {
     return prev[type] > curr.price ? prev : curr;
     // prev.price
     // prev.discountPrice
@@ -166,3 +166,4 @@ if (newTotal <= 3) {
 } else {
   console.log('I cant afford')
 }
+///Apple info
