@@ -1093,15 +1093,4 @@ const movies = [
   },
 ]
 
-let a = movies[0];
-console.log(movies)
-const movie = ["The Godfather", "The Good, the Bad and the Ugly", "Once Upon a Time in the West"];
-movie[1] = "The Godfather";
-movie[2] = "The Good, the Bad and the Ugly";
-movie[3] = "Once Upon a Time in the West";
-
-console.log(movie[1])
-console.log(movie[2])
-console.log(movie[3])
-
-        /// movies realase between 1962-1972/////
+///basic movie data
