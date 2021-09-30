@@ -1104,4 +1104,4 @@ console.log(movie[1])
 console.log(movie[2])
 console.log(movie[3])
 
-        /// movies realase between 1962-1972
+        /// movies realase between 1962-1972/////
