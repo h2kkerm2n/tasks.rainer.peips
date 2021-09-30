@@ -1,17 +1,29 @@
-const mycolors1 = ['Red'+','+'Green'+','+'White'+','+'Black. ' ];
-
-for(let i = 0; i < mycolors1.lenght; i++){
-    console.log(mycolors1[1])
+function check(string) {
+    if (!string) {
+        return true
+    } else {
+        return false
+    }
 }
 
-const mycolors2 = ['Red'+','+'Green'+','+'White'+','+'Black. ' ]
-
-for(let i = 0; i < mycolors2.lenght; i++){
-    console.log(mycolors2[2])
+function up(string) {
+    if (!string) {
+        return string
+    } else {
+        return string = string.charAt(0).toUpperCase() + string.slice(1);
+    }
 }
 
-const mycolors3 = ['Red'+','+'Green'+','+'White'+','+'Black. ' ]
+const a = ''
+const b = 'tere'
+const c = 'minu nimi on John'
 
-for(let i = 0; i < mycolors3.lenght; i++){
-    console.log(mycolors3[3])
-}
+
+console.log(check(a))
+console.log(check(b))
+console.log(check(c))
+
+console.log(up(a))
+console.log(up(b))
+console.log(up(c))
+

@@ -6,7 +6,7 @@ console.log(a)
 
 const c = mycolors.join(", ");
 console.log(c)
- 
+
 //output [ 'Red', 'Green', 'White', 'Black' ]//
 
 const b = mycolors.join(" + ");
