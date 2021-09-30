@@ -166,4 +166,4 @@ if (newTotal <= 3) {
 } else {
   console.log('I cant afford')
 }
-///Apple info
+///u can log out here can u buy any apples or nooot
