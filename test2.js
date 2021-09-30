@@ -1,11 +1,11 @@
-const eesnimi = 'Rainer';
-const sunnipaev = "11";
-const sunnikuu = "8";
-const sunniaasta = "1990";
-const hobid = ['jalgpall', 'arvutimangud'];
-const object = { eesnimi, sunnikuu, sunniaasta, sunniaasta, hobid };
+const firstname = 'Rainer';
+const birthday = "11";
+const birthmonth = "8";
+const birthyear = "1990";
+const hobbies = ['jalgpall', 'arvutimangud'];
+const object = { firstname, birthmonth, birthyear, hobbies };
 
 console.log(object);
-console.log(sunnipaev + "." + sunnikuu + "." + sunniaasta)
+console.log(birthday + "." + birthmonth + "." + birthyear)
 
 /// u can log out here my personal info
