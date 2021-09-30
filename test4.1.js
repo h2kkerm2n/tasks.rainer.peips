@@ -1,15 +1,12 @@
 const mycolors = ["Red", "Green", "White", "Black"];
-const a = mycolors.tostring();
+const a = mycolors.toString();
 console.log(a)
-
-//output Red,green,white,black
+//Output: Red,Green,White,Black
 
 const c = mycolors.join(", ");
 console.log(c)
-
-//output [ 'Red', 'Green', 'White', 'Black' ]//
+//Output [ 'Red', 'Green', 'White', 'Black' ]//
 
 const b = mycolors.join(" + ");
 console.log(b)
-
 //Output: Red + Green + White + Black//
