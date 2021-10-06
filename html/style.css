@@ -1,9 +1,23 @@
 h1 {
     color: red;
+    /*color: green !important ; */
+    color: blueviolet;
 }
 img  {height: 300px;
 width: auto;
 }
 body {
-    background-color: seagreen;
+    background-color: rgb(173, 161, 53);
 }
+/* KOMMMENTAASR */
+
+.klass {
+   /* annab 10p */
+}
+
+#id {
+    /* annab 100p */
+}
+/* inline style annab 1000p */
+/*!important annab 10000p */
+
