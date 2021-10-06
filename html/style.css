@@ -21,3 +21,40 @@ body {
 /* inline style annab 1000p */
 /*!important annab 10000p */
 
+header {
+    background-color: red;
+}
+ 
+nav{
+    background-color: green;
+}
+
+section {
+    background-color: orangered;
+    float: left;
+    width: 60%;
+
+}
+
+article {
+    background-color: brown;
+    margin: 15px;
+    padding: 15px;
+}
+
+aside {
+    background-color: orange;
+    
+    background-image: url(https://www.fcbarcelonanoticias.com/uploads/s1/12/72/53/9/messi-neymar-mbappe.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    float: left;
+    width: 40%;
+}
+footer {
+    background-color: rgb(127, 0, 139);
+    width: 100%;
+    float: left;
+}
