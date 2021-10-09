@@ -1,0 +1,59 @@
+h1 {
+    color: black;
+    /*color: green !important ; */
+    color: black;
+}
+img  {height: 500px;
+width: 100%;
+    
+}
+body {
+    background-color: cornflowerblue;
+    
+}
+/* KOMMMENTAASR */
+
+.klass {
+   /* annab 10p */
+}
+
+#id {
+    /* annab 100p */
+}
+/* inline style annab 1000p */
+/*!important annab 10000p */
+
+header {
+    
+}
+ 
+nav{
+    float: right;
+    
+   
+}
+
+section {
+    
+    
+}
+
+article {
+    background-image: url("https://media.foot-store.com/catalog/product/cache/small_image/318x/9df78eab33525d08d6e5fb8d27136e95/c/v/cv7902-101-phsfh001-2000.jpeg");
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+     
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ee523846-b2f6-44ca-9d05-72d423591ac8/mercurial-superfly-8-elite-fg-football-boots-fPFGNk.png");
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+aside {
+  
+}
+footer {
+
+    
+}
